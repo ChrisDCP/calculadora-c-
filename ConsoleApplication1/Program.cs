@@ -21,6 +21,7 @@ namespace ConsoleApplication1
                 b = int.Parse(Console.ReadLine());
                 Console.Clear();
 
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("\t sumar 1 \n");
                 Console.WriteLine("\t restar 2 \n");
                 Console.WriteLine("\t multiplicar 3 \n");
