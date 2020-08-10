@@ -22,6 +22,7 @@ namespace ConsoleApplication1
                 Console.WriteLine("\t restar 2 \n");
                 Console.WriteLine("\t multiplicar 3 \n");
                 Console.WriteLine("\t dividir 4 \n");
+                Console.WriteLine("\t cerrar 5 \n");
 
                 Console.WriteLine("¿Que quiere hacer?");
                 c = int.Parse(Console.ReadLine());
@@ -48,7 +49,7 @@ namespace ConsoleApplication1
                         break;
 
                     default:
-                        Console.WriteLine("pendejo");
+                        Dfault();
                         break;
                 }
             } while (c != 5);
@@ -120,7 +121,8 @@ namespace ConsoleApplication1
 
         public static void Dfault()
         {
-
+            Console.WriteLine("cerrado");
+            Console.ReadKey();
         }
     }
 }
