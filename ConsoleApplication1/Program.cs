@@ -117,5 +117,10 @@ namespace ConsoleApplication1
             Console.WriteLine(a + " / " + b + " = " + d);
             Console.ReadKey();
         }
+
+        public static void Dfault()
+        {
+
+        }
     }
 }
